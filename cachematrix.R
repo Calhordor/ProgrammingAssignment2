@@ -26,13 +26,7 @@
       x$setInv(m)
       m 
   }
-  test <- matrix(runif(9,1,100),3,3)
-  testCached <- makeCacheMatrix(test)
-  testInv <- cacheSolve(testCached)
-  testInv <- cacheSolve(testCached)
-  testInv <- cacheSolve(testCached)
-  testInv <- cacheSolve(testCached)
-  testInv <- cacheSolve(testCached)
+  
   
   #sample output
   > x = rbind(c(1992,420),c(420,1992))
